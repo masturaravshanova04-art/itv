@@ -1,0 +1,27 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+navbar{
+    width:100%;
+    background-color: #333;
+    padding: 1rem;
+    display:flex;
+    align-items:center;
+    justify-content:start;
+    border-bottom: 2px solid #444;
+    color: #41a241;
+}
+hero{
+    width:100%;
+    height: 100vh;
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    text-align:center;
+}
